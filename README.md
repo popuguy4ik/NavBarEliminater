@@ -1,2 +1,2 @@
-# nav_bar_eliminater_magisk
+# NavBarEliminater
 Magisk Module which makes navigation bar under gboard smaller.
