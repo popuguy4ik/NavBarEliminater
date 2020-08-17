@@ -1,13 +1,10 @@
 OTVAL=[ui_print " This module doesn't support ShitUI!" && abort " Aborting..."]
-SPO="rm -rf $MODPATH/system/product/overlay"
-SVO="rm -rf $MODPATH/system/vendor/overlay"
 NAME=$(getprop ro.miui.ui.version.name)
 CODE=$(getprop ro.miui.ui.version.code)
 REGION=$(getprop ro.miui.region)
 MODEL=$(getprop ro.product.system.model)
 CODENAME=$(getprop ro.product.system.device)
 SDK=$(getprop ro.system.build.version.sdk)
-CODENAME2=$(getprop ro.build.version.codename)
 ui_print " Device: $MODEL " && ui_print " Codename: $CODENAME " && ui_print " Android Version SDK: $SDK "
 ui_print " "
 
