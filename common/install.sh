@@ -1,10 +1,3 @@
-OTVAL=[ui_print " This module doesn't support ShitUI!" && abort " Aborting..."]
-NAME=$(getprop ro.miui.ui.version.name)
-CODE=$(getprop ro.miui.ui.version.code)
-REGION=$(getprop ro.miui.region)
-MODEL=$(getprop ro.product.system.model)
-CODENAME=$(getprop ro.product.system.device)
-SDK=$(getprop ro.system.build.version.sdk)
 ui_print " Device: $MODEL " && ui_print " Codename: $CODENAME " && ui_print " Android Version SDK: $SDK "
 ui_print " "
 
