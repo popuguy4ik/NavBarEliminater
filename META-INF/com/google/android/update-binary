@@ -23,6 +23,7 @@ REGION=$(getprop ro.miui.region)
 MODEL=$(getprop ro.product.system.model)
 CODENAME=$(getprop ro.product.system.device)
 SDK=$(getprop ro.system.build.version.sdk)
+FLAG='/data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml'
 
 #########################
 # Load util_functions.sh
