@@ -18,11 +18,11 @@ abort "This Module for Android Q and R only!"
 fi
 
 unzip -oj "$ZIPFILE" 'flag_value.xml' -d '/sdcard'
-ui_print " "&& ui_print "   Making ur NavBar looks better. "
-rm -rf /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml
-cp '/sdcard/flag_value.xml' '/data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml'
+ui_print " "&& ui_print "   Making ur NavBar coooooooooler. "
+rm -rf $FLAG
+cp '/sdcard/flag_value.xml' '$FLAG'
 rm -rf /sdcard/flag_value.xml
-chmod 0644 /data/data/com.google.android.inputmethod.latin/shared_prefs/flag_value.xml
+chmod 0644 $FLAG
 am force-stop com.google.android.inputmethod.latin
 ui_print " "
 ui_print "  And don't forget to sub to "
@@ -32,3 +32,4 @@ ui_print "  it give me motivation "
 ui_print "  to make more modules in future. "
 ui_print " "
 
+#всем похуй
